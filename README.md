@@ -10,7 +10,7 @@ Script types
 2. *.sh  --> Shell scripts 
 3. *.bat --> Cmd scripts 
 
-Folder info
+Folders info
 -------------------------------------------------------
 
 Tiny-function --> For those tiny scripts.
