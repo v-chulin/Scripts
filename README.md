@@ -6,9 +6,9 @@ Under this folder are scripts.
 Script types
 -------------------------------------------------------
 
-*.py  --> Python scripts 
-*.sh  --> Shell scripts 
-*.bat --> Cmd scripts 
+1. *.py  --> Python scripts 
+2. *.sh  --> Shell scripts 
+3. *.bat --> Cmd scripts 
 
 Folder info
 -------------------------------------------------------
