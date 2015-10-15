@@ -21,9 +21,9 @@ stdin,stdout,stderr = ssh.exec_command('df -h')
 print "======="
 print stdout.read() 
 print "======="
-stdin,stdout,stderr = ssh.exec_command('ps -ef | grep xebialabs/deployit')
+stdin,stdout,stderr = ssh.exec_command('ps -ef | grep httpd')
 print stdout.read()
-if "nohup /opt/xebialabs/deployit" in stdout.read():
+if "httpd" in stdout.read():
     print "Yes"
 else:
     print "No"
