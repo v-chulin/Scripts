@@ -1,12 +1,12 @@
-############################################################################################################
-# This script use for grab owner from CMBD.xml files (/etc/CMDB.xml) under all karmalab/Lab Linux servers. #
-# Run as ./grabCMDB.sh under a karmalab linux server, you will be requested to input username&password.    #
-# Need a file save all the servers' name. (./linux.txt)                                                    #
-############################################################################################################
+#######################################################################################################
+# This script use for grab owner from CMBD.xml files (/etc/CMDB.xml) under Linux servers.             #
+# Execute as ./grabCMDB.sh under a linux server, you will be requested to input username & password.  #
+# Need a file save all the servers' name. (./linux.txt)                                               #
+#######################################################################################################
 
 #!/bin/bash
 
-# get the username&password which use to login karmalab/linxu servers from input #
+# get the username&password which use to login linxu servers from input #
 echo "Please input your LDAP account:"
 read user
 echo "Your password:"
