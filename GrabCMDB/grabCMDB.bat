@@ -1,8 +1,8 @@
-::############################################################################################################
-::# This script use for grab owner from CMBD.xml files (C:\CMDB.xml) under all karmalab/Lab Windows servers. #
-::# Run this under a karmalab/Lab Windows server, need a file save all the servers' name. (E:\windows.txt)   #
-::# Execute it under E:\ here, if you want to run on other path, just update the path E:\ on this script     #
-::############################################################################################################
+::#########################################################################################################
+::# This script use for grab owner from CMBD.xml files (C:\CMDB.xml) under all  Windows servers.          #
+::# Execute it under a Windows server, need a file save all the servers' name. (E:\windows.txt).          #
+::# Execute it under E:\ here, if you want to run on other path, just update the path E:\ on this script. #
+::#########################################################################################################
 
 :: an example of CMDB.xml as below
 ::# <CmdbOwner>
@@ -14,7 +14,7 @@
 @echo off
 :: print output
 echo Grab the Owner from CMDB files.
-::E:\windows.txt save all the kamalab Windows servers, %%i is single server name
+::E:\windows.txt save all Windows servers, %%i is single server name
 for /f %%i in (E:\windows.txt) do (
   :: copy a CMDB.xml from a single server to local E:\
   xcopy /v /y /q /z \\%%i\C$\CMDB.xml E:\

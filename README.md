@@ -14,4 +14,5 @@ Folders info
 ------------------------------------------------
 
 - Tiny-function --> For those tiny scripts
-- DeployIt --> DeployIt is a deployment tool, scripts involve in DeployIt
+- DeployIt  --> DeployIt is a deployment tool, scripts involve in DeployIt
+- GrabCMDB  --> GrabCMDB is a project used to grab the file (CMDB.xml) from servers and analyze it
