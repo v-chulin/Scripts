@@ -1,3 +1,7 @@
+######################################################################################################
+# This script show how to use paramiko moudle to SSH/Remote linux servers and execute command on it. #
+######################################################################################################
+
 #!/usr/bin/python
 
 import paramiko
