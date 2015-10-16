@@ -8,7 +8,7 @@ You can edit this file with input the servers name line by line.
 How to excute?
 ----
 
-### Execute sequence as below:
+#### Execute sequence as below:
 
 1. determineOS.sh             
     input  -- servers.txt                      
