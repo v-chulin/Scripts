@@ -13,5 +13,5 @@ Script types
 Folders info
 ------------------------------------------------
 
-Tiny-function --> For those tiny scripts.
-DeployIt --> DeployIt is a deployment tool, scripts involve in DeployIt.
+- Tiny-function --> For those tiny scripts
+- DeployIt --> DeployIt is a deployment tool, scripts involve in DeployIt
