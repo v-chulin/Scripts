@@ -1,15 +1,15 @@
 Scripts Repository
-=======================================================
+------------------------------------------------
 
 Under this folder are scripts.
 
-#### Script types
+### Script types
 
 - *.py  --> Python scripts 
 - *.sh  --> Shell scripts 
 - *.bat --> Cmd scripts 
 
-## Folders info
+### Folders info
 
 Tiny-function --> For those tiny scripts.
 DeployIt --> DeployIt is a deployment tool, scripts involve in DeployIt.
